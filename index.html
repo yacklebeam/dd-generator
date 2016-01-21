@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>D D NAME GENERATOR</title>
+    <link href="style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:300' rel='stylesheet' type='text/css'>
+    <script src="dd-adj.js"></script>
+    <script src="dd-nouns.js"></script>
+</head>
+
+<body bgcolor="#F5F5F5">
+<div id="resframe">
+	<h2 id="dd-result">Click Generate to Get a New "DD" Name</h2>
+</div>
+<script>
+function getDDName()
+{
+	var adj = getRandomAdj();
+	var noun = getRandomNoun();
+	document.getElementById('dd-result').innerHTML = [adj, noun].join(' ');
+}
+
+getDDName();
+</script>
+</body>
+
+</html>

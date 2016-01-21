@@ -1,0 +1,20 @@
+#dd-result {
+	color: #333333;
+	font-family: 'Ubuntu', sans-serif;
+	/*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
+	font-weight: 300;
+	font-size: 64px;
+}
+
+#resframe {
+	width:680px;
+	height:100px;
+
+	position: absolute;
+	top: 0;
+	bottom: 300;
+	right: 0;
+	left: 0;
+
+	margin: auto;
+}
